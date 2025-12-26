@@ -22,5 +22,10 @@ public class Test1 {
 		System.out.println("Testcase 4");
 	}
 	
+	@Test
+	public void Testcase5() {
+		System.out.println("Testcase 5");
+	}
+	
 
 }

@@ -17,6 +17,10 @@ public class Test1 {
 		System.out.println("Testcase 3");
 	}
 	
-
+	@Test
+	public void Testcase4() {
+		System.out.println("Testcase 4");
+	}
+	
 
 }

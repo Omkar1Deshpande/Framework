@@ -12,7 +12,11 @@ public class Test1 {
 		System.out.println("Testcase 2");
 	}
 	
-
+	@Test
+	public void Testcase3() {
+		System.out.println("Testcase 3");
+	}
+	
 
 
 }

@@ -2,24 +2,23 @@
 <testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-27T04:27:58 IST" name="Default suite" finished-at="2025-12-27T04:27:59 IST" duration-ms="95">
+  <suite started-at="2025-12-27T17:14:48 IST" name="Default suite" finished-at="2025-12-27T17:14:48 IST" duration-ms="254">
     <groups>
     </groups>
-    <test started-at="2025-12-27T04:27:58 IST" name="Default test" finished-at="2025-12-27T04:27:59 IST" duration-ms="95">
+    <test started-at="2025-12-27T17:14:48 IST" name="Default test" finished-at="2025-12-27T17:14:48 IST" duration-ms="254">
       <class name="testcases.Test1">
-        <test-method signature="Test1case()[pri:0, instance:testcases.Test1@2e6a8155]" started-at="2025-12-27T04:27:59 IST" name="Test1case" finished-at="2025-12-27T04:27:59 IST" duration-ms="23" status="FAIL">
+        <test-method signature="Test1case()[pri:0, instance:testcases.Test1@1477089c]" started-at="2025-12-27T17:14:48 IST" name="Test1case" finished-at="2025-12-27T17:14:48 IST" duration-ms="67" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Titles of the website do not match expected [NoString] but found [String]]]>
+              <![CDATA[expected [true] but found [false]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: Titles of the website do not match expected [NoString] but found [String]
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at testcases.Test1.Test1case(Test1.java:12)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at testcases.Test1.Test1case(Test1.java:18)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,19 +53,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1case -->
-        <test-method signature="Testcase2()[pri:0, instance:testcases.Test1@2e6a8155]" started-at="2025-12-27T04:27:59 IST" name="Testcase2" finished-at="2025-12-27T04:27:59 IST" duration-ms="2" status="PASS">
+        <test-method signature="Testcase2()[pri:0, instance:testcases.Test1@1477089c]" started-at="2025-12-27T17:14:48 IST" name="Testcase2" finished-at="2025-12-27T17:14:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase2 -->
-        <test-method signature="Testcase3()[pri:0, instance:testcases.Test1@2e6a8155]" started-at="2025-12-27T04:27:59 IST" name="Testcase3" finished-at="2025-12-27T04:27:59 IST" duration-ms="4" status="PASS">
+        <test-method signature="Testcase3()[pri:0, instance:testcases.Test1@1477089c]" started-at="2025-12-27T17:14:48 IST" name="Testcase3" finished-at="2025-12-27T17:14:48 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase3 -->
-        <test-method signature="Testcase4()[pri:0, instance:testcases.Test1@2e6a8155]" started-at="2025-12-27T04:27:59 IST" name="Testcase4" finished-at="2025-12-27T04:27:59 IST" duration-ms="1" status="PASS">
+        <test-method signature="Testcase4()[pri:0, instance:testcases.Test1@1477089c]" started-at="2025-12-27T17:14:48 IST" name="Testcase4" finished-at="2025-12-27T17:14:48 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase4 -->
-        <test-method signature="Testcase5()[pri:0, instance:testcases.Test1@2e6a8155]" started-at="2025-12-27T04:27:59 IST" name="Testcase5" finished-at="2025-12-27T04:27:59 IST" duration-ms="2" status="PASS">
+        <test-method signature="Testcase5()[pri:0, instance:testcases.Test1@1477089c]" started-at="2025-12-27T17:14:48 IST" name="Testcase5" finished-at="2025-12-27T17:14:48 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Testcase5 -->

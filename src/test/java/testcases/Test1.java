@@ -4,7 +4,7 @@ package testcases;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-//import org.testng.Assert;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.qameta.allure.Allure;
@@ -20,7 +20,7 @@ public class Test1 {
 		System.out.println("Testcase 1");
 		log.info("Test 1");
 		Allure.step("Validate String");
-		//Assert.assertTrue(false);
+		Assert.assertTrue(false);
 	}
 	@Test
 	public void Testcase2() {

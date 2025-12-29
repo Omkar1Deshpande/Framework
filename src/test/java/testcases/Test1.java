@@ -39,11 +39,7 @@ public class Test1 {
 		log.error("This is an error");
 		System.out.println("Testcase 4");
 	}
-	
-	@Test
-	public void Testcase5() {
-		System.out.println("Testcase 5");
-	}
+
 	
 
 }

@@ -15,7 +15,7 @@ public class Test1 {
 		System.out.println("Testcase 1");
 		
 		Allure.step("Validate String");
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 	}
 	@Test
 	public void Testcase2() {

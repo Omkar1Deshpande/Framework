@@ -15,7 +15,7 @@ public class Test1 {
 	private static final Logger log = LogManager.getLogger(Test1.class);
 	@Test
 	@Description("Testcase 1")
-	public void Test1case() {
+	public void Testcase1() {
 		Allure.step("Print String");
 		System.out.println("Testcase 1");
 		log.info("Test 1");
